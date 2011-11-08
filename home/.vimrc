@@ -1,4 +1,5 @@
-call pathogen#runtime_prepend_subdirectories(expand('~/.vimbundles'))
+call pathogen#(infect)
+call pathogen#(helptags)
 
 set tabstop=2
 set smarttab
