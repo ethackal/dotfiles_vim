@@ -1,8 +1,12 @@
-call pathogen#(infect)
+call pathogen#infect()
+call pathogen#helptags()
+
+colorscheme corporation
 
 set tabstop=2
-set smarttab
+set expandtab
+
 set shiftwidth=2
 set autoindent
-set expandtab
+
 
